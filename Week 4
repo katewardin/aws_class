@@ -1,0 +1,20 @@
+Elastic load balancer - 
+Monitors health of instances and routes requests to healthy instance (provides single endpoint for external users and redirects incoming requests to instance)
+
+2 Types of ELB algorithm: 
+- Round robin (next server in line) 
+- Least outstanding requests from HTTP/HTTPS (monitors how many web requests are going to specific server - route new requests to server with least requests) 
+
+ELB benefits 
+- scale app perf
+- automatically handle failed instances
+- protect against failure of an entire availability zone
+
+- Use EC2 
+- Priced at hourly basis
+- Sticky sessions (bind a user's session to a speciic instance) 
+- SSL termination 
+- Internal load balancing
+
+File services
+S3 is like a website - you can dump files and have an associate URL to access them 
