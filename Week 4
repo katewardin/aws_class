@@ -18,3 +18,11 @@ ELB benefits
 
 File services
 S3 is like a website - you can dump files and have an associate URL to access them 
+
+EFS - managed file system for EC2 instances 
+File sharing mechanism - mount file share and treat it like a file system - any file that you put into system is accessible by other instances also sharing file system
+
+Virtual private cloud
+- Allows you to create your own secure datacenter within AWS
+
+Virtual private cloud uses a NAT as proxy device to communicate out to internet. Public interenet cannot reach the VPC.
